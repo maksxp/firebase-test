@@ -24,7 +24,7 @@ jobs:
           npm install
 
       - name: Build the project
-        run: npm run build --configuration production
+        run: npm run build -- --configuration production
 
       - name: Deploy to Firebase
         env:
